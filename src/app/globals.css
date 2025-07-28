@@ -1,8 +1,12 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --font-geist-sans: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+html, body {
+  @apply min-h-screen flex flex-col bg-gradient-to-b from-gray-900 to-gray-950 text-gray-100 antialiased;
 }
 
 @theme inline {
