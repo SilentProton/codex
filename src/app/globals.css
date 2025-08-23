@@ -5,7 +5,8 @@
   --font-geist-mono: 'Geist Mono', monospace;
 }
 
-html, body {
+html,
+body {
   @apply min-h-screen flex flex-col bg-gradient-to-b from-gray-900 to-gray-950 text-gray-100 antialiased;
 }
 
